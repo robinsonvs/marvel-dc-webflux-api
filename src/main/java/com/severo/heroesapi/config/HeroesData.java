@@ -10,6 +10,8 @@ import com.amazonaws.services.dynamodbv2.document.Table;
 import org.socialsignin.spring.data.dynamodb.repository.config.EnableDynamoDBRepositories;
 import org.springframework.context.annotation.Configuration;
 
+import static com.severo.heroesapi.constans.HeroesConstant.*;
+
 @Configuration
 @EnableDynamoDBRepositories
 public class HeroesData {
@@ -17,7 +19,7 @@ public class HeroesData {
     public static void main(String[] args) {
 
         AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
-                .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration("", ""))
+                .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration(ENDPOINT_DYNAMO, REGION_DYNAMO))
                 .build();
 
         DynamoDB dynamoDB = new DynamoDB(client);
