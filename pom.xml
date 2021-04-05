@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.severo</groupId>
-	<artifactId>livecoding</artifactId>
+	<artifactId>heroesapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>HeroesApi</name>
 	<description>Demo project for Spring Boot</description>
