@@ -1,3 +1,13 @@
+## Stack utilizada
+
+  * Java8
+  * spring webflux
+  * Spring data
+  * dynamodb
+  * junit
+  * sl4j
+  * reactor
+
 Executar dynamo: 
 
  java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
