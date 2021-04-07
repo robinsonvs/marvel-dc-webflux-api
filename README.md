@@ -6,3 +6,5 @@ Executar dynamo:
 
 
 swagger: http://localhost:8080/swagger-ui-heroes-reactive-api.html
+
+aws cli: https://aws.amazon.com/pt/cli/
